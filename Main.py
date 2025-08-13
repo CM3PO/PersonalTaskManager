@@ -26,7 +26,7 @@ class TaskManager:
     def view_tasks(self, show_completed=False):
         """Display all tasks or filter by completion status."""
         if not self.tasks:
-            print("📝 No tasks found. Add some tasks to get started! ")
+            print("📝 No tasks found. You should add some tasks to get started! ")
             return
 
         print("\n" + "="*60)
